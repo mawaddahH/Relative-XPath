@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-27T02:41:55 AST" name="Default suite" finished-at="2022-07-27T02:42:25 AST" duration-ms="30286">
+    <groups>
+    </groups>
+    <test started-at="2022-07-27T02:41:55 AST" name="Default test" finished-at="2022-07-27T02:42:25 AST" duration-ms="30286">
+      <class name="ass2RelativeXPath.ChromWebDriver">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ass2RelativeXPath.ChromWebDriver@7880cdf3]" started-at="2022-07-27T02:41:55 AST" name="setUp" finished-at="2022-07-27T02:42:02 AST" duration-ms="7412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LearnEnglishWebSite()[pri:0, instance:ass2RelativeXPath.ChromWebDriver@7880cdf3]" started-at="2022-07-27T02:42:02 AST" name="LearnEnglishWebSite" finished-at="2022-07-27T02:42:25 AST" duration-ms="22430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LearnEnglishWebSite -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:ass2RelativeXPath.ChromWebDriver@7880cdf3]" started-at="2022-07-27T02:42:25 AST" name="terminateBrowser" finished-at="2022-07-27T02:42:25 AST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- ass2RelativeXPath.ChromWebDriver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
