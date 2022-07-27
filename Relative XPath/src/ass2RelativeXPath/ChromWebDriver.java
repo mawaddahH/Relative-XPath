@@ -48,8 +48,7 @@ public class ChromWebDriver {
 		// https://stackoverflow.com/questions/45183797/element-not-interactable-exception-in-selenium-web-automation
 		// https://stackoverflow.com/questions/71761074/the-constructor-webdriverwaitchromedriver-int-is-undefined
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions
-				.elementToBeClickable(By.xpath("//span[@class='custom-page-popup-modal-close spb_close']")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class='custom-page-popup-modal-close spb_close']")));
 
 		// Delay execution for 3 seconds after find specific web element
 		// I used it to I can see the result carefully and for a screenshot.
